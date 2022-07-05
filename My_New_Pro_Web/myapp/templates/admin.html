@@ -1,0 +1,12 @@
+{% if a %}
+{% for i in range(l) %}
+<fieldset>
+<h1> Employee Details</h1>
+<p> Employee Id : {{a[i].EmpId}}</p>
+<p> Employee Name : {{a[i].EmpName}} </p>
+<p> Employee Salary : {{a[i].EmpSalary}} </p>
+<p> Employee TechArea : {{b[i].TechArea}} </p>
+<p> Employee Password : {{a[i].password}} </p>
+</fieldset>
+{% endfor %}
+{% endif %}
